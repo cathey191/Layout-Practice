@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: sans-serif;
+}
+
+/* header{
+	background-color: lightblue;
+	width: 100vw
+} */
+
+header{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-end;
+}
+
+header a img{
+	width: 100px;
+	height: auto;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+#mainImage img{
+	width: 100vw;
+	height: 500px;
+}
+
+main h1{
+	text-align: center;
+}
+
+section{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+section .imgGroup{
+	flex-basis: 20%
+}
+
+section .imgGroup p{
+	padding:15px;
+}
+
+footer{
+	width: 100vw;
+	display: flex;
+}
+
+footer .footerGroup{
+	padding: 20px;
+}

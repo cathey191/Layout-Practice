@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: lightblue;
+	width: 100vw;
+	overflow: auto;
+}
+
+#logo img{
+	width: 125px;
+	float: left;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav ul li>a{
+	text-decoration: none;
+	color: black
+}
+
+nav ul li:hover a{
+	color: brown;
+}
+
+.clear{
+	clear: both;
+}
+
+#banner{
+	background-position: center center;
+}
+
+#mainImage{
+	background-image: url("../images/ricardo-gomez-angel-273521-unsplash.jpg");
+	width: 100vw;
+	height: 80vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+#banner h3, p{
+	width: 80vw;
+	max-width: 1000px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 40%;
+}
+
+.bits{
+	width: 50%;
+	float: left;
+}
+
+.bitImages img{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.location{
+	width: 50%;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+/* .location img{
+
+}
+
+.location p{
+
+} */
